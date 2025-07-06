@@ -53,7 +53,7 @@ const translations = {
     "team.developer1Role": "Frontend Dasturchi",
     "team.developer1Bio": "React va Vue.js bo'yicha mutaxassis",
     "team.developer2Role": "Frontend Dasturchi",
-    "team.developer2Bio": "React va Vue.js bo'yicha mutaxassis",
+    "team.developer2Bio": "Front-end bo'yicha mutaxassis",
 
     // Portfolio
     "portfolio.title": "Bizning Loyihalar",
@@ -145,7 +145,7 @@ const translations = {
     "team.developer1Role": "Frontend Разработчик",
     "team.developer1Bio": "Специалист по React и Vue.js",
     "team.developer2Role": "Backend Разработчик",
-    "team.developer2Bio": "Специалист по Node.js и Python",
+    "team.developer2Bio": "Специалист по Front-end",
 
     // Portfolio
     "portfolio.title": "Наши Проекты",
@@ -237,7 +237,7 @@ const translations = {
     "team.developer1Role": "Frontend Developer",
     "team.developer1Bio": "React and Vue.js specialist",
     "team.developer2Role": "Backend Developer",
-    "team.developer2Bio": "Node.js and Python specialist",
+    "team.developer2Bio": "Front-end specialist",
 
     // Portfolio
     "portfolio.title": "Our Projects",

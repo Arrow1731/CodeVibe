@@ -2,7 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { GithubIcon, LinkedinIcon, Target, TwitterIcon } from "lucide-react"
+import { GithubIcon, SendIcon, Target, InstagramIcon } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 
 export function TeamSection() {
@@ -16,19 +16,19 @@ export function TeamSection() {
       bio: t("team.developer1Bio"),
       social: {
         github: "https://github.com/Arrow1731",
-        linkedin: "https://www.linkedin.com/in/azizbek-kamilov-81698132a/",
-        twitter: "#",
+        send: "https://t.me/KamilovAzizbek",
+        instagram: "https://www.instagram.com/azizbek17.01/",
       },
     },
     {
-      name: "Мария Петрова",
+      name: "Sobirjon otajonov",
       role: t("team.developer2Role"),
       image: "/placeholder.svg?height=300&width=300",
       bio: t("team.developer2Bio"),
       social: {
-        github: "#",
-        linkedin: "#",
-        twitter: "#",
+        github: "https://github.com/SOB1Rake",
+        send: "https://t.me/otajanovv_s",
+        instagram: "https://www.instagram.com/otajanovv_s/",
       },
     },
   ]
@@ -62,13 +62,13 @@ export function TeamSection() {
                       </a>
                     </Button>
                     <Button variant="ghost" size="sm" asChild>
-                      <a href={member.social.linkedin} target="_blank" rel="noopener noreferrer">
-                        <LinkedinIcon className="h-4 w-4" />
+                      <a href={member.social.send} target="_blank" rel="noopener noreferrer">
+                        <SendIcon className="h-4 w-4" />
                       </a>
                     </Button>
                     <Button variant="ghost" size="sm" asChild>
-                      <a href={member.social.twitter} target="_blank" rel="noopener noreferrer">
-                        <TwitterIcon className="h-4 w-4" />
+                      <a href={member.social.instagram} target="_blank" rel="noopener noreferrer">
+                        <InstagramIcon className="h-4 w-4" />
                       </a>
                     </Button>
                   </div>

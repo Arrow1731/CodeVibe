@@ -9,7 +9,7 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin", "cyrillic"] })
 
 export const metadata: Metadata = {
-  title: "DevTeam - Профессиональная разработка",
+  title: "CodeVibe",
   description: "Команда разработчиков создающая веб-сайты, программы и Telegram боты",
     generator: 'v0.dev'
 }
