@@ -2,7 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "lucide-react"
+import { GithubIcon, LinkedinIcon, Target, TwitterIcon } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 
 export function TeamSection() {
@@ -10,13 +10,13 @@ export function TeamSection() {
 
   const team = [
     {
-      name: "Алексей Иванов",
+      name: "Azizbek Kamilov",
       role: t("team.developer1Role"),
       image: "/placeholder.svg?height=300&width=300",
       bio: t("team.developer1Bio"),
       social: {
-        github: "#",
-        linkedin: "#",
+        github: "https://github.com/Arrow1731",
+        linkedin: "https://www.linkedin.com/in/azizbek-kamilov-81698132a/",
         twitter: "#",
       },
     },

@@ -52,8 +52,8 @@ const translations = {
     "team.subtitle": "Professional dasturchilar jamoasi",
     "team.developer1Role": "Frontend Dasturchi",
     "team.developer1Bio": "React va Vue.js bo'yicha mutaxassis",
-    "team.developer2Role": "Backend Dasturchi",
-    "team.developer2Bio": "Node.js va Python bo'yicha mutaxassis",
+    "team.developer2Role": "Frontend Dasturchi",
+    "team.developer2Bio": "React va Vue.js bo'yicha mutaxassis",
 
     // Portfolio
     "portfolio.title": "Bizning Loyihalar",
